@@ -44,4 +44,8 @@ final class DotEnv
             }
         }
     }
+    public function getPath():?string
+    {
+        return $this->path;
+    }
 }
