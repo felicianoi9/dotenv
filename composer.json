@@ -1,0 +1,28 @@
+{    
+    "name": "felicianoi9/dotenv",
+    "description": "This project consists of facilitating the use of the .env file in PHP projects, in order to protect the access information to banks and third party services such as E-mail, AWS and others.",
+    "keywords": [
+        "felicianoi9",
+        "package",
+        "router",
+        "routes"        
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rogério Feliciano dos Santos",
+            "email": "felicianoi9@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Felicianoi9\\DotEnv\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
